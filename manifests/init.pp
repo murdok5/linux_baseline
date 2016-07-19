@@ -28,8 +28,8 @@ class linux_baseline {
   # users
 
   accounts::user { 'athena':
-    uid      => 4001,
-    gid      => 4001,
+    uid      => '4001',
+    gid      => '4001',
     shell    => '/bin/bash',
     password => 'password123',
     locked   => false,
