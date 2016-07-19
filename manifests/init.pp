@@ -1,5 +1,9 @@
 class linux_baseline {
-  
+ 
+  class { 'motd':
+    content => "This machine is managed by Puppet!/n",
+  }
+ 
   # packages
  
   package { 'openssh':
