@@ -6,7 +6,7 @@ class linux_baseline {
  
   # packages
  
-  package { 'openssh':
+  package { 'openssh-client':
     ensure => present,
   }
 
@@ -14,7 +14,7 @@ class linux_baseline {
     ensure => latest,
   }
   
-  package { 'openissl':
+  package { 'openssl':
     ensure => '1.0.1f-1ubuntu2.18',
   }
 
