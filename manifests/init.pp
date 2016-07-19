@@ -1,10 +1,7 @@
 class linux_baseline {
   
-  include ntp
-  include epel
-  
   # packages
-  
+ 
   package { 'openssh':
     ensure => present,
   }
