@@ -32,7 +32,6 @@ class linux_baseline {
     gid      => 4001,
     shell    => '/bin/bash',
     password => 'password123',
-    sshkeys  => "ssh-rsa AAAA...",
     locked   => false,
   }
 
