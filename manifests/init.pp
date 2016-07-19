@@ -7,7 +7,7 @@ class linux_baseline {
   # packages
  
   package { 'openssh-client':
-    ensure => present,
+    ensure => '1:6.6p1-2ubuntu2.6',
   }
 
   package { 'vim':
